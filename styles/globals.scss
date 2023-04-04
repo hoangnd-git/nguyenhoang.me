@@ -1,12 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Montserrat+Alternates&display=swap');
 @import 'emoji.min.css';
 
+@font-face {
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  src: url('font/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 400;
+  src: url('font/Montserrat-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  src: url('font/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  font-display: swap;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 700;
+  src: url('font/Montserrat-BoldItalic.ttf') format('truetype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .ec {
@@ -72,4 +107,5 @@ body {
 
 a {
   text-decoration: none;
+  color: #1c84d9;
 }
