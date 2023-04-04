@@ -10,6 +10,7 @@ export default function Home() {
         <meta property="og:image" content="/favicon.png" />
         <meta property="og:title" content="nguyenhoang.me/" />
         <meta property="og:description" content="Mảnh đất thần kỳ" />
+        <meta name="google-site-verification" content="2sv7utYTeZ0DN0LfK10EIjz-paQ_f4mP84RWLmQqjs0" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="main-container">
