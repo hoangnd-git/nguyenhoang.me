@@ -47,7 +47,6 @@ body {
   font-size: 26px;
 }
 
-
 .header {
   height: 64px;
   background-color: #f1f1f1;
@@ -82,11 +81,9 @@ body {
   }
 }
 
-
 .footer {
   background-color: #f1f1f1;
   height: 64px;
-  padding: 0 500px;
 }
 
 .main-container {
@@ -107,4 +104,46 @@ body {
 a {
   text-decoration: none;
   color: #1c84d9;
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    .header-center {
+      width: 612px;
+    }
+  }
+
+  .main-container {
+    .main-center {
+      width: 612px;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .header {
+    .header-center {
+      width: 512px;
+    }
+  }
+
+  .main-container {
+    .main-center {
+      width: 512px;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header {
+    .header-center {
+      width: 312px;
+    }
+  }
+
+  .main-container {
+    .main-center {
+      width: 312px;
+    }
+  }
 }
