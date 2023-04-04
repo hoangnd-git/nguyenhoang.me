@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Montserrat+Alternates&display=swap');
+@import 'emoji.min.css';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.ec {
+  font-size: 26px;
+}
+
+
+.header {
+  height: 64px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .header-center {
+    width: 750px;
+    display: flex;
+    align-items: center;
+  }
+
+  .branch {
+    color: #584f4f;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .text-animate {
+    animation: blink-animation 1s infinite;
+    width: 4px;
+    height: 8px;
+    background-color: rgb(90, 90, 90);
+    margin-left: 2px;
+  }
+}
+
+@keyframes blink-animation {
+  to {
+    opacity: 0;
+  }
+}
+
+
+.footer {
+  background-color: #f1f1f1;
+  height: 64px;
+  padding: 0 500px;
+}
+
+.main-container {
+  height: calc(100vh - 368px);
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+
+  .main-center {
+    width: 750px;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
